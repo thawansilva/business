@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .btn {
+    @apply py-1 px-10 rounded-xl text-xl outline-2 outline outline-yellow-400 font-semibold hover:text-gray-800 hover:bg-yellow-400  ease-in-out duration-300 md:text-2xl;
+  }
+}
+
+@layer components {
+  .center-Element {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+  }
+}
